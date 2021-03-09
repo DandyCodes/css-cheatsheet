@@ -44,11 +44,17 @@ article {
     border: dashed 0.1rem white;
 }
 
+article:hover, article:hover h2 {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+}
+
+
 article h2 {
     padding: 0.25rem;
     position: relative;
     border: 0.1rem white solid;
     border-radius: var(--radius);
+    transition: all 0.5s ease-in-out;
     width: 90%;
     margin: auto;
     margin-top: -1rem;
@@ -62,7 +68,7 @@ article p {
 
 pre {
     margin: 0.5rem 1rem;
-    padding-left: 1rem;
+    padding: 1rem;
     color: white;
     background: var(--delicious-pink);
     background: linear-gradient(#5d4164, #95579b);
@@ -72,6 +78,7 @@ pre {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    user-select: all;
 }
 
 footer {
