@@ -14,6 +14,11 @@
     margin: auto;
 }
 
+::selection {
+    color: black;
+    background-color: rgb(90, 226, 185);
+}
+
 header {
     text-align: center;
     padding: 1rem;
