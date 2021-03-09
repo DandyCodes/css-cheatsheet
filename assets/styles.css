@@ -9,14 +9,17 @@
     background-color: var(--dark-color);
     color: rgb(232, 103, 237);
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1200px;
-    min-width: 300px;
-    margin: auto;
 }
 
 ::selection {
     color: black;
     background-color: rgb(90, 226, 185);
+}
+
+body {
+    max-width: 1200px;
+    min-width: 300px;
+    margin: auto;
 }
 
 header {
@@ -56,7 +59,6 @@ article:hover, article:hover h2 {
 
 article h2 {
     padding: 0.25rem;
-    position: relative;
     border: 0.1rem white solid;
     border-radius: var(--radius);
     transition: all 0.5s ease-in-out;
