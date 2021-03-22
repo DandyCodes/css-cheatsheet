@@ -1,6 +1,6 @@
 # CSS Cheatsheet
 ## Description
-This repository contains a website which provides the user with code snippets for common CSS design patterns.
+This repository contains a website which provides the user with code snippets for common CSS design patterns. 
 
 ![a screenshot of the deployed website](/assets/images/screenshot.png)
 ## Usage
